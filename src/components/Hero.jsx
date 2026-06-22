@@ -140,12 +140,12 @@ const Hero = () => {
                   </div>
                 </div>
 
-                <a href="https://www.linkedin.com/in/kalyan-banavath/" className="contact-quick-item" target="_blank" rel="noopener noreferrer">
+                <a href="https://www.linkedin.com/in/kalyan-banavath01/" className="contact-quick-item" target="_blank" rel="noopener noreferrer">
                   <div className="contact-quick-icon">
                     <LinkedinIcon size={16} />
                   </div>
                   <div className="contact-quick-text">
-                    linkedin.com/in/kalyan-banavath
+                    linkedin.com/in/kalyan-banavath01
                   </div>
                 </a>
               </div>

@@ -154,7 +154,7 @@ function App() {
             </a>
 
             <a 
-              href="https://www.linkedin.com/in/kalyan-banavath/" 
+              href="https://www.linkedin.com/in/kalyan-banavath01/" 
               className="footer-social-btn" 
               title="LinkedIn Connect"
               target="_blank" 
