@@ -57,7 +57,7 @@ const Navbar = () => {
         <div className="container nav-container">
           {/* Logo */}
           <a href="#home" onClick={(e) => { e.preventDefault(); handleLinkClick('home'); }} className="logo">
-            BK<span>.QA</span>
+            Kalyan<span>.QA</span>
           </a>
 
           {/* Desktop Nav & Actions */}
