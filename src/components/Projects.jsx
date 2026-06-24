@@ -1,18 +1,17 @@
-import React from 'react';
-import { ShieldAlert, ExternalLink, Shield } from 'lucide-react';
+import { Shield } from 'lucide-react';
 
 const Projects = () => {
   const projects = [
     {
       title: 'Pizza Hut Ordering Ecosystem',
-      description: 'Managed system-wide regression updates and core functional coverage ensuring frictionless checkout architectures. Verified real-time operational state synchronization between digital store customer entry points, backend microservices, and POS hardware.',
-      tags: ['POS Synchronization', 'E2E Workflows', 'Regression Testing', 'FoodTech QA'],
+      description: 'Managed system-wide regression updates and core functional coverage ensuring frictionless checkout architectures. Verified real-time operational state synchronization between web/mobile entry points, backend microservices, and POS hardware. Tested integrated payment methods (credit cards, transaction loops) and performed web SEO optimization testing.',
+      tags: ['POS Synchronization', 'Payment Testing', 'SEO Optimization', 'FoodTech QA', 'E2E Workflows'],
       accentIndex: 0
     },
     {
       title: 'Papa Johns India Digital Platform',
-      description: 'Executed validation criteria mapping for integrated multi-platform delivery tracking APIs, user administration control panels, and mobile apps. Successfully verified custom-trained conversational feedback analytics matrices for reporting anomalies.',
-      tags: ['Admin Panel', 'Tracking API', 'AI Dashboards', 'Conversational Analytics'],
+      description: 'Executed validation criteria mapping for integrated multi-platform delivery tracking APIs, user administration control panels, and native mobile apps. Successfully tested CRM push notifications, in-app messaging delivery parameters, and verified conversational feedback dashboards reporting anomalies.',
+      tags: ['CRM Notifications', 'In-App Messaging', 'Tracking API', 'AI Dashboards', 'Mobile QA'],
       accentIndex: 1
     }
   ];
