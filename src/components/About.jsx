@@ -66,19 +66,17 @@ const About = () => {
                 <span>FoodTech & QSR Sector Depth</span>
               </h4>
               <p className="about-feature-desc">
-                Deep specialization in quick service restaurant ecosystems, verifying checkout integrity, 
-                real-time operations synchronization, and backend microservice API tracking.
+                Deep specialization in QSR systems, verifying multi-channel payment methods, checkout loops, and operations synchronization. I possess the capability to test and certify any web and mobile application.
               </p>
             </div>
 
             <div className="about-feature-box">
               <h4 className="about-feature-title">
                 <Sparkles size={18} />
-                <span>AI & Prompt Engineering QA</span>
+                <span>AI & Next-Gen QA Specialist</span>
               </h4>
               <p className="about-feature-desc">
-                Actively expanding testing frameworks into AI verification, ensuring LLM outputs are accurate, 
-                safe from prompt injection exploits, and aligned with logical constraints.
+                Verifying system alignment: I validate prompt inputs, test against prompt injection exploit vectors, control LLM hallucination limits, and verify CRM push notifications, in-app messaging, and sentiment metrics.
               </p>
             </div>
           </div>

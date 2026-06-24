@@ -10,8 +10,11 @@ const Experience = () => {
       subtitle: 'Sune Solutions Pvt Ltd',
       date: 'Aug 2022 - Present',
       bullets: [
-        'Owned end-to-end user workflow execution, defect lifecycle documentation, and platform releases for highly complex customer food-ordering environments.',
-        'Designed test scripts tracking multi-platform application states across Web, Mobile (iOS/Android), custom physical Kiosks, and POS hardware.',
+        'Owned end-to-end user workflow execution, defect lifecycle documentation, and platform releases for highly complex customer food-ordering ecosystems across Web and Mobile channels.',
+        'Validated checkout systems by verifying payment method integrity (payment gateways, credit cards, checkout transaction states) to ensure zero checkout failures.',
+        'Tested CRM push notifications and in-app message triggers on native iOS and Android apps, checking device tokens and payload parsing.',
+        'Executed SEO optimization testing on web platforms (crawling, site speed, schema markup, canonical mapping) as a Data-Driven SEO QA Specialist.',
+        'Designed test scripts tracking multi-platform application states (Web, Mobile, custom physical Kiosks, and POS hardware) with full capability to test and certify any website or mobile app.',
         'Conducted REST API testing via Postman to validate integration endpoints and backend microservices.',
         'Tested AI-powered customer sentiment dashboards for data accuracy and reporting anomalies.'
       ]
