@@ -18,11 +18,11 @@ const Skills = () => {
       description: 'Fully capable of testing any web and mobile application, verifying payment gateways, transaction loops, CRM push notifications, and in-app alerts.'
     },
     {
-      title: 'AI & Next-Gen QA',
+      title: 'Gen AI & Automation QA',
       icon: Cpu,
-      skills: ['Prompt Engineering', 'LLM Output Validation', 'Hallucination Control', 'Prompt Injection Defenses', 'AI Sentiment Tracking'],
+      skills: ['Tricentis Tosca', 'Gen AI Testing', 'Prompt Engineering', 'Hallucination Control', 'Prompt Injection Defenses', 'AI Sentiment Tracking'],
       role: 'Role & Verification:',
-      description: 'My role is to verify prompt output accuracy, inspect security boundaries against prompt injections, detect model hallucinations, and validate conversational metrics.'
+      description: 'My role is to develop automated test scripts using Tricentis Tosca, verify prompt output accuracy, detect model hallucinations, and audit security boundaries.'
     },
     {
       title: 'Data & Developer Tools',

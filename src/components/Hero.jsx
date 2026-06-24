@@ -38,7 +38,7 @@ const Hero = () => {
           <div className="hero-content reveal-on-scroll">
             <div className="hero-badge">
               <Terminal size={14} />
-              <span>QA Engineer & Data-Driven SEO Specialist</span>
+              <span>QA Engineer & Gen AI Test Engineer</span>
             </div>
             
             <h1 className="hero-title">
@@ -47,14 +47,14 @@ const Hero = () => {
             </h1>
             
             <h2 className="hero-subtitle">
-              QA Engineer | <strong>AI & Data-Driven SEO Specialist</strong>
+              QA Engineer | <strong>Gen AI & Tosca Automation Specialist</strong>
             </h2>
             
             <p className="hero-desc">
-              With 3.8 years of hands-on QA expertise, I test and secure complex multi-channel ecosystems 
+              With 4 years of hands-on QA expertise, I test and secure complex multi-channel ecosystems 
               covering Web, Mobile (iOS/Android), custom physical in-store Kiosks, and POS hardware. I specialize in testing 
               payment methods, CRM push notifications, and in-app messages. I can test any website and mobile application, 
-              blending data-driven SEO optimization testing with next-generation AI and LLM validation.
+              utilizing Tricentis Tosca test automation and next-generation Gen AI validation.
             </p>
             
             <div className="hero-ctas">
@@ -108,7 +108,7 @@ const Hero = () => {
                 <div>
                   <h3 style={{ fontSize: '1.2rem', fontWeight: 800 }}>Banavath Kalyan</h3>
                   <span style={{ fontSize: '0.8rem', color: 'var(--accent-secondary)', fontWeight: 600, textTransform: 'uppercase' }}>
-                    QA & SEO Specialist
+                    QA & Automation Engineer
                   </span>
                 </div>
               </div>

@@ -10,13 +10,13 @@ const Experience = () => {
       subtitle: 'Sune Solutions Pvt Ltd',
       date: 'Aug 2022 - Present',
       bullets: [
-        'Owned end-to-end user workflow execution, defect lifecycle documentation, and platform releases for highly complex customer food-ordering ecosystems across Web and Mobile channels.',
+        'Owned end-to-end user workflow execution, defect lifecycle documentation, and platform releases for highly complex customer food-ordering ecosystems across Web and Mobile channels, leveraging 4 years of QA experience.',
+        'Automated functional test cases for the Papa Johns website and mobile applications using Tricentis Tosca, improving regression test coverage.',
         'Validated checkout systems by verifying payment method integrity (payment gateways, credit cards, checkout transaction states) to ensure zero checkout failures.',
         'Tested CRM push notifications and in-app message triggers on native iOS and Android apps, checking device tokens and payload parsing.',
-        'Executed SEO optimization testing on web platforms (crawling, site speed, schema markup, canonical mapping) as a Data-Driven SEO QA Specialist.',
+        'Conducted Gen AI testing audits (prompt validation, hallucination checks, model input safety boundaries) as a Gen AI Test Engineer.',
         'Designed test scripts tracking multi-platform application states (Web, Mobile, custom physical Kiosks, and POS hardware) with full capability to test and certify any website or mobile app.',
-        'Conducted REST API testing via Postman to validate integration endpoints and backend microservices.',
-        'Tested AI-powered customer sentiment dashboards for data accuracy and reporting anomalies.'
+        'Conducted REST API testing via Postman to validate integration endpoints and backend microservices.'
       ]
     },
     {

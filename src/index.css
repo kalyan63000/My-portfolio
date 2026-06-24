@@ -1,17 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap');
 
 :root {
-  --bg-dark: #070b13;
-  --bg-dark-secondary: #0b111e;
-  --card-bg: rgba(11, 17, 30, 0.65);
-  --card-border: rgba(255, 255, 255, 0.08);
-  --accent-primary: #3b82f6; /* Electric Blue */
-  --accent-primary-rgb: 59, 130, 246;
-  --accent-secondary: #06b6d4; /* Bright Cyan */
-  --accent-secondary-rgb: 6, 182, 212;
+  --bg-dark: #080711; /* Deep purple obsidian */
+  --bg-dark-secondary: #0d0c1b;
+  --card-bg: rgba(13, 11, 26, 0.65);
+  --card-border: rgba(255, 255, 255, 0.07);
+  --accent-primary: #8b5cf6; /* Electric Violet */
+  --accent-primary-rgb: 139, 92, 246;
+  --accent-secondary: #00f5ff; /* Neon Cyan */
+  --accent-secondary-rgb: 0, 245, 255;
   --text-primary: #f3f4f6;
-  --text-secondary: #a1a1aa;
-  --text-muted: #71717a;
+  --text-secondary: #a2a1b5;
+  --text-muted: #6e6b85;
   
   --font-sans: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
   --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
