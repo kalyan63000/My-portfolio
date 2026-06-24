@@ -23,13 +23,9 @@ const Experience = () => {
       type: 'education',
       icon: GraduationCap,
       title: 'Bachelor of Technology (B.Tech)',
-      subtitle: 'Mahatma Gandhi Institute of Technology',
-      date: 'ECE (Electronics & Communication Engineering)',
-      bullets: [
-        'Graduated with a 72% Aggregate.',
-        'Located in Hyderabad, India.',
-        'Focused on digital electronics, signal processing, and communication networks.'
-      ]
+      subtitle: 'Mahatma Gandhi Institute of Technology (ECE)',
+      date: 'Passout: 2022',
+      bullets: []
     }
   ];
 
