@@ -4,14 +4,14 @@ const Projects = () => {
   const projects = [
     {
       title: 'Pizza Hut Ordering Ecosystem',
-      description: 'Managed system-wide regression updates and core functional coverage ensuring frictionless checkout architectures. Verified real-time operational state synchronization between web/mobile entry points, backend microservices, and POS hardware. Tested integrated payment methods (credit cards, transaction loops) and performed web SEO optimization testing.',
-      tags: ['POS Synchronization', 'Payment Testing', 'SEO Optimization', 'FoodTech QA', 'E2E Workflows'],
+      description: 'Managed system-wide regression updates and core functional coverage ensuring frictionless checkout architectures. Verified real-time operational state synchronization between web/mobile entry points, backend microservices, and POS hardware. Tested integrated payment methods, credit card checkouts, and transaction loops.',
+      tags: ['POS Synchronization', 'Payment Testing', 'FoodTech QA', 'E2E Workflows'],
       accentIndex: 0
     },
     {
       title: 'Papa Johns India Digital Platform',
-      description: 'Executed validation criteria mapping for integrated multi-platform delivery tracking APIs, user administration control panels, and native mobile apps. Successfully tested CRM push notifications, in-app messaging delivery parameters, and verified conversational feedback dashboards reporting anomalies.',
-      tags: ['CRM Notifications', 'In-App Messaging', 'Tracking API', 'AI Dashboards', 'Mobile QA'],
+      description: 'Executed validation criteria mapping for delivery tracking APIs, user administration panels, and native mobile apps. Automated end-to-end functional test cases for the Papa Johns website and mobile applications using Tricentis Tosca. Tested CRM push notifications and in-app message deliveries.',
+      tags: ['Tricentis Tosca', 'Mobile QA', 'CRM Notifications', 'In-App Messaging'],
       accentIndex: 1
     }
   ];

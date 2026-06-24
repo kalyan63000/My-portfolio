@@ -33,7 +33,7 @@ const About = () => {
             {/* Quick Metrics Grid */}
             <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '1rem' }}>
               <div className="glass-card hover-lift" style={{ padding: '1.5rem', textAlign: 'center' }}>
-                <div style={{ fontSize: '2rem', fontWeight: 800, color: 'var(--accent-secondary)', lineHeight: 1 }}>3.8+</div>
+                <div style={{ fontSize: '2rem', fontWeight: 800, color: 'var(--accent-secondary)', lineHeight: 1 }}>4</div>
                 <div style={{ fontSize: '0.8rem', color: 'var(--text-secondary)', marginTop: '0.5rem', fontWeight: 600, textTransform: 'uppercase' }}>
                   Years in QA
                 </div>
@@ -52,11 +52,10 @@ const About = () => {
             <div className="about-feature-box">
               <h4 className="about-feature-title">
                 <Layers size={18} />
-                <span>Multi-Channel Testing Expert</span>
+                <span>Tosca Automation Engineer</span>
               </h4>
               <p className="about-feature-desc">
-                Proven ability to design test plans tracking application states across Web, native Mobile (iOS/Android), 
-                custom in-store digital Kiosks, Point of Sale (POS) terminals, and kitchen dispatch frameworks.
+                Automating E2E functional test scenarios for web and mobile platforms using Tricentis Tosca, ensuring rapid regression coverage.
               </p>
             </div>
 
@@ -66,17 +65,17 @@ const About = () => {
                 <span>FoodTech & QSR Sector Depth</span>
               </h4>
               <p className="about-feature-desc">
-                Deep specialization in QSR systems, verifying multi-channel payment methods, checkout loops, and operations synchronization. I possess the capability to test and certify any web and mobile application.
+                Deep specialization in QSR systems, testing multi-channel payment method checkout gateways. I can verify and test any website and mobile application.
               </p>
             </div>
 
             <div className="about-feature-box">
               <h4 className="about-feature-title">
                 <Sparkles size={18} />
-                <span>AI & Next-Gen QA Specialist</span>
+                <span>Gen AI Test Engineer</span>
               </h4>
               <p className="about-feature-desc">
-                Verifying system alignment: I validate prompt inputs, test against prompt injection exploit vectors, control LLM hallucination limits, and verify CRM push notifications, in-app messaging, and sentiment metrics.
+                Verifying Gen AI integrations: I validate prompt inputs, test against adversarial exploits, control model hallucination parameters, and audit model output safety boundaries.
               </p>
             </div>
           </div>
