@@ -38,7 +38,7 @@ const Hero = () => {
           <div className="hero-content reveal-on-scroll">
             <div className="hero-badge">
               <Terminal size={14} />
-              <span>QA Engineer & Gen AI Test Engineer</span>
+              <span>Senior QA Engineer • 4.8 YOE</span>
             </div>
             
             <h1 className="hero-title">
@@ -47,14 +47,15 @@ const Hero = () => {
             </h1>
             
             <h2 className="hero-subtitle">
-              QA Engineer | <strong>Gen AI & Tosca Automation Specialist</strong>
+              Senior QA Engineer | <strong>Playwright Automation & Enterprise QA</strong>
             </h2>
             
             <p className="hero-desc">
-              With 4 years of hands-on QA expertise, I test and secure complex multi-channel ecosystems 
-              covering Web, Mobile (iOS/Android), custom physical in-store Kiosks, and POS hardware. I specialize in testing 
-              payment methods, CRM push notifications, and in-app messages. I can test any website and mobile application, 
-              utilizing Tricentis Tosca test automation and next-generation Gen AI validation.
+              QA Engineer with 4.8 years of experience in Manual and Automation Testing across Web, 
+              Mobile (iOS/Android), POS, Kiosk, and Enterprise Applications. Skilled in designing 
+              and maintaining automated regression test suites using Playwright with TypeScript, 
+              end-to-end user workflows, payment gateway integrations, and cross-platform verification 
+              for platforms like Pizza Hut and Papa Johns India.
             </p>
             
             <div className="hero-ctas">
@@ -108,18 +109,18 @@ const Hero = () => {
                 <div>
                   <h3 style={{ fontSize: '1.2rem', fontWeight: 800 }}>Banavath Kalyan</h3>
                   <span style={{ fontSize: '0.8rem', color: 'var(--accent-secondary)', fontWeight: 600, textTransform: 'uppercase' }}>
-                    QA & Automation Engineer
+                    Senior QA Engineer (4.8 YOE)
                   </span>
                 </div>
               </div>
 
               <div className="contact-quick-list">
-                <a href="mailto:banavathkalyannayak19@gmail.com" className="contact-quick-item" target="_blank" rel="noopener noreferrer">
+                <a href="mailto:banavathkalyan19@gmail.com" className="contact-quick-item" target="_blank" rel="noopener noreferrer">
                   <div className="contact-quick-icon">
                     <Mail size={16} />
                   </div>
                   <div className="contact-quick-text">
-                    banavathkalyannayak19@gmail.com
+                    banavathkalyan19@gmail.com
                   </div>
                 </a>
 

@@ -136,7 +136,7 @@ function App() {
           {/* Social icons row */}
           <div className="footer-socials reveal-on-scroll">
             <a 
-              href="mailto:banavathkalyannayak19@gmail.com" 
+              href="mailto:banavathkalyan19@gmail.com" 
               className="footer-social-btn" 
               title="Send Email"
               target="_blank" 
