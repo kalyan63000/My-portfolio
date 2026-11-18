@@ -1,64 +1,68 @@
 import React, { useState } from 'react';
-import { ClipboardCheck, Smartphone, Cpu, Database } from 'lucide-react';
+import { ClipboardCheck, Smartphone, Cpu, Database, Code2, GitBranch, Bot } from 'lucide-react';
 
 const Skills = () => {
   const [selectedSkill, setSelectedSkill] = useState(null);
 
   const skillDetails = {
-    'Tricentis Tosca': {
-      test: 'Verify end-to-end user transactions, payment checkouts, and navigation paths across both Web and native Mobile (iOS/Android) interfaces.',
-      verify: 'Verify test step assertions, dynamic buffer variables, database synchronizations, and regression reports for defect mitigation.'
+    'Playwright': {
+      test: 'Automated end-to-end user workflows across Web and Mobile: Login, Menu Browsing, Cart Management, Checkout, Payment Validation, and Order Tracking.',
+      verify: 'Cross-browser execution stability, resilient locator strategies, automated regression suites, assertion verification, and detailed test execution reports.'
     },
-    'Gen AI Testing': {
-      test: 'Test model responsiveness across multi-channel integrations, performance under load, and API latencies.',
-      verify: 'Verify formatting compliance (JSON/XML structures), system failover constraints, and token usage metrics.'
+    'TypeScript': {
+      test: 'Automation test script logic, typed Page Object Models (POM), custom test fixtures, and modular test data management.',
+      verify: 'Type safety, async/await Promise handling, reusable utility helper functions, and compilation-level error prevention.'
     },
-    'Prompt Engineering': {
-      test: 'Test system prompt constraints, template variables, system parameters (temperature, top_p), and multi-turn chat memory states.',
-      verify: 'Verify prompt response alignment with business rules, persona consistency, and contextual relevance of the output.'
+    'Postman': {
+      test: 'RESTful API endpoints, request bodies, query parameters, auth tokens, and integration microservices for delivery tracking and ordering.',
+      verify: 'HTTP response status codes (200, 201, 400, 500), JSON response schema structures, response latencies, and payload data integrity.'
     },
-    'Hallucination Control': {
-      test: 'Test factual boundaries of LLM models under out-of-domain queries and complex retrieval contexts.',
-      verify: 'Verify grounding scores (faithfulness of output to input text) and proper safe fallback refusaIs (e.g., "I don\'t know").'
+    'SQL': {
+      test: 'Backend transactional data flows, order placement records, inventory status deductions, and payment status updates.',
+      verify: 'Database state consistency, table constraints, query performance, and synchronization between customer entry points, POS, and backend DB.'
     },
-    'Prompt Injection Defenses': {
-      test: 'Test model vulnerabilities against jailbreaks, instruction overrides, indirect injections, and character code bypasses.',
-      verify: 'Verify model refusal rates for malicious prompts and containment of system-defined prompt boundaries.'
+    'Jira & Azure DevOps': {
+      test: 'End-to-end defect tracking lifecycle, sprint user story acceptance criteria, and release validation checklists.',
+      verify: 'Bug severity/priority categorization, reproduction steps, sprint traceability, and deployment readiness.'
     },
-    'AI Sentiment Tracking': {
-      test: 'Test classifications across positive/negative/neutral customer inputs, model scoring thresholds, and data pipelines.',
-      verify: 'Verify data synchronization on the analytics reporting dashboards and alert triggers for anomaly metrics.'
+    'Gen AI (ChatGPT, Claude, Copilot)': {
+      test: 'AI-assisted test case generation, boundary value analysis, complex edge-case formulation, and automation script optimization.',
+      verify: 'Test scenario coverage accuracy, syntax precision, prompt optimization, and productivity gains across QA workflows.'
+    },
+    'Regression Testing': {
+      test: 'Full platform regression updates across Web, Android, iOS, POS, Kiosks, and Kitchen Display Systems (KDS) prior to production releases.',
+      verify: 'Zero regression defects, payment gateway checkout stability, order synchronization, and release confidence.'
     }
   };
 
   const toolkit = [
     {
-      title: 'Core QA Methodologies',
+      title: 'Automation Testing',
+      icon: Code2,
+      skills: ['Playwright', 'TypeScript', 'Selenium (Basic)', 'Cross-Browser Testing'],
+      role: 'Role & Verification:',
+      description: 'Develop and maintain robust automation test suites with Playwright & TypeScript for critical workflows (Login, Menu, Cart, Checkout, Payments).'
+    },
+    {
+      title: 'Manual & Functional QA',
       icon: ClipboardCheck,
-      skills: ['Functional Testing', 'Regression Testing', 'Smoke & Sanity', 'Integration Testing', 'End-to-End (E2E)', 'UAT', 'Defect Lifecycle Management'],
+      skills: ['Functional Testing', 'Regression Testing', 'Smoke & Sanity', 'User Acceptance (UAT)', 'Integration Testing', 'End-to-End (E2E)', 'Release Validation'],
       role: 'Role & Verification:',
-      description: 'Manage the defect lifecycle in Jira, mitigate release quality risks, and verify functional regressions to ensure smooth software checkouts.'
+      description: 'Design, review, and execute detailed test scenarios, conduct release validation testing, and ensure frictionless customer checkout architectures.'
     },
     {
-      title: 'Platforms Tested',
+      title: 'Platforms & Systems',
       icon: Smartphone,
-      skills: ['Web Applications', 'Mobile (Android/iOS)', 'Point of Sale (POS)', 'Custom Kiosks', 'Kitchen Display Systems (KDS)', 'Kitchen Dispatch'],
+      skills: ['Web Applications', 'Android Apps', 'iOS Apps', 'POS Systems', 'Kiosk Systems', 'Kitchen Display Systems (KDS)', 'Inventory Management'],
       role: 'Role & Verification:',
-      description: 'Fully capable of testing any web and mobile application, verifying payment gateways, transaction loops, CRM push notifications, and in-app alerts.'
+      description: 'Test and certify multi-platform application states, validating real-time synchronization between digital store entry points, microservices, and POS hardware.'
     },
     {
-      title: 'Gen AI & Automation QA',
-      icon: Cpu,
-      skills: ['Tricentis Tosca', 'Gen AI Testing', 'Prompt Engineering', 'Hallucination Control', 'Prompt Injection Defenses', 'AI Sentiment Tracking'],
-      role: 'Role & Verification:',
-      description: 'My role is to develop automated test scripts using Tricentis Tosca, verify prompt output accuracy, detect model hallucinations, and audit security boundaries.'
-    },
-    {
-      title: 'Data & Developer Tools',
+      title: 'API, Database & Tools',
       icon: Database,
-      skills: ['Postman', 'REST API Testing', 'SQL Basics', 'Jira', 'Git & GitHub', 'Playwright & Selenium basics'],
+      skills: ['Postman', 'SQL', 'Jira', 'Azure DevOps', 'Git', 'Gen AI (ChatGPT, Claude, Copilot)'],
       role: 'Role & Verification:',
-      description: 'Write API endpoint validation scripts using Postman, run SQL queries for database verification, and trace version control in Git.'
+      description: 'Conduct REST API testing via Postman, SQL database query validations, track defects in Jira & Azure DevOps, and leverage Gen AI tools for testing productivity.'
     }
   ];
 
@@ -70,10 +74,10 @@ const Skills = () => {
           <h2 className="section-header-title">Technical Toolkit</h2>
           <div className="section-header-line"></div>
           <p className="section-header-subtitle">
-            A comprehensive overview of my testing methodologies, platform expertise, and modern AI engineering skills.
+            A comprehensive overview of my testing methodologies, automation frameworks, platforms, and modern AI tools.
           </p>
           <p style={{ fontSize: '0.85rem', color: 'var(--accent-secondary)', marginTop: '0.5rem', fontStyle: 'italic' }}>
-            💡 Click on any Gen AI or Automation skill badge to deep-dive into what I test and verify as a QA Engineer.
+            💡 Click on any highlighted badge (Playwright, TypeScript, Postman, SQL, Jira/Azure DevOps, Gen AI, Regression Testing) for a QA deep-dive.
           </p>
         </div>
 
@@ -139,7 +143,7 @@ const Skills = () => {
                   QA Deep-Dive: {selectedSkill}
                 </h4>
                 <span style={{ fontSize: '0.75rem', color: 'var(--accent-primary)', fontWeight: 600, textTransform: 'uppercase', letterSpacing: '0.5px' }}>
-                  QA Engineer Role & Verification Guidelines
+                  Senior QA Engineer • Role & Verification Guidelines
                 </span>
               </div>
               <button 

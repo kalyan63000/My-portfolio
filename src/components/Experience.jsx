@@ -1,30 +1,55 @@
 import React from 'react';
-import { Briefcase, GraduationCap } from 'lucide-react';
+import { Briefcase, GraduationCap, Award } from 'lucide-react';
 
 const Experience = () => {
   const items = [
     {
       type: 'experience',
       icon: Briefcase,
-      title: 'QA Engineer / Software Tester',
-      subtitle: 'Sune Solutions Pvt Ltd',
-      date: 'Aug 2022 - Present',
+      title: 'QA Engineer',
+      subtitle: 'Sune Solutions Pvt. Ltd.',
+      date: 'Aug 2022 – Present',
       bullets: [
-        'Owned end-to-end user workflow execution, defect lifecycle documentation, and platform releases for highly complex customer food-ordering ecosystems across Web and Mobile channels, leveraging 4 years of QA experience.',
-        'Automated functional test cases for the Papa Johns website and mobile applications using Tricentis Tosca, improving regression test coverage.',
-        'Validated checkout systems by verifying payment method integrity (payment gateways, credit cards, checkout transaction states) to ensure zero checkout failures.',
-        'Tested CRM push notifications and in-app message triggers on native iOS and Android apps, checking device tokens and payload parsing.',
-        'Conducted Gen AI testing audits (prompt validation, hallucination checks, model input safety boundaries) as a Gen AI Test Engineer.',
-        'Designed test scripts tracking multi-platform application states (Web, Mobile, custom physical Kiosks, and POS hardware) with full capability to test and certify any website or mobile app.',
-        'Conducted REST API testing via Postman to validate integration endpoints and backend microservices.'
+        'Perform Functional, Regression, Smoke, UAT, Integration, and End-to-End Testing across Web, Mobile, POS, Kiosk, and KDS platforms for enterprise platforms.',
+        'Developed and maintained Playwright with TypeScript automation scripts for critical workflows including Login, Cart, Checkout, and Payment Validation.',
+        'Designed, reviewed, and executed detailed test cases and test scenarios based on complex business requirements.',
+        'Identified, reported, tracked, and validated defects using Jira and Azure DevOps.',
+        'Conducted Release Validation Testing, Production Verification, and Post-Deployment Smoke Testing.',
+        'Validated integrations involving payment gateways, CRM systems, delivery tracking solutions, inventory management, loyalty programs, and reporting dashboards.',
+        'Collaborated closely with developers, business analysts, product owners, and stakeholders within Agile Scrum sprints.'
+      ]
+    },
+    {
+      type: 'experience',
+      icon: Briefcase,
+      title: 'QA Engineer Intern',
+      subtitle: 'Sune Solutions Pvt. Ltd.',
+      date: 'Mar 2022 – Aug 2022',
+      bullets: [
+        'Executed manual functional, smoke, and regression test cases for food ordering applications.',
+        'Participated in production verification activities and defect reproduction across multi-platform customer entry points.',
+        'Assisted the QA team in test documentation and defect lifecycle logging using Jira.'
+      ]
+    },
+    {
+      type: 'achievement',
+      icon: Award,
+      title: 'Key Professional Achievements',
+      subtitle: 'Career Milestones & Delivery Impact',
+      date: '4.8 YOE Milestones',
+      bullets: [
+        'Successfully delivered multiple major production releases for Pizza Hut India and Papa Johns India platforms.',
+        'Implemented Playwright automation test scripts for critical customer-facing revenue workflows.',
+        'Performed thorough testing across 6+ diverse platforms including Web, Mobile (iOS/Android), POS, KDS, Admin, and Kiosks.',
+        'Consistently collaborated with cross-functional teams to ensure high-quality and stable production deployments.'
       ]
     },
     {
       type: 'education',
       icon: GraduationCap,
-      title: 'Bachelor of Technology (B.Tech)',
-      subtitle: 'Mahatma Gandhi Institute of Technology (ECE)',
-      date: 'Passout: 2022',
+      title: 'Bachelor of Technology [E.C.E]',
+      subtitle: 'Mahatma Gandhi Institute of Technology (MGIT)',
+      date: 'Graduated: 2022',
       bullets: []
     }
   ];

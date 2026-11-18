@@ -23,25 +23,26 @@ const About = () => {
                 Professional Biography
               </h3>
               <p className="paragraph" style={{ marginBottom: 0 }}>
-                I am a results-driven Quality Assurance Engineer with 3.8 years of experience in manual 
-                testing, functional validation, and mitigation of technical release quality risks. My 
-                career is built on ensuring comprehensive system integrity across complex, multi-channel 
-                software ecosystems.
+                Senior QA Engineer with 4.8 years of hands-on experience in Manual and Automation Testing 
+                across Web, Mobile, POS, Kiosk, and Enterprise Applications. Proven track record in Functional, 
+                Regression, UAT, and End-to-End Testing for enterprise platforms like Pizza Hut and Papa Johns India. 
+                Skilled in Agile methodologies, defect management in Jira & Azure DevOps, and building automated 
+                test suites using Playwright with TypeScript, backed by solid API (Postman) and Database (SQL) testing.
               </p>
             </div>
 
             {/* Quick Metrics Grid */}
             <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '1rem' }}>
               <div className="glass-card hover-lift" style={{ padding: '1.5rem', textAlign: 'center' }}>
-                <div style={{ fontSize: '2rem', fontWeight: 800, color: 'var(--accent-secondary)', lineHeight: 1 }}>4</div>
+                <div style={{ fontSize: '2rem', fontWeight: 800, color: 'var(--accent-secondary)', lineHeight: 1 }}>4.8</div>
                 <div style={{ fontSize: '0.8rem', color: 'var(--text-secondary)', marginTop: '0.5rem', fontWeight: 600, textTransform: 'uppercase' }}>
                   Years in QA
                 </div>
               </div>
               <div className="glass-card hover-lift" style={{ padding: '1.5rem', textAlign: 'center' }}>
-                <div style={{ fontSize: '2rem', fontWeight: 800, color: 'var(--accent-primary)', lineHeight: 1 }}>5+</div>
+                <div style={{ fontSize: '2rem', fontWeight: 800, color: 'var(--accent-primary)', lineHeight: 1 }}>6+</div>
                 <div style={{ fontSize: '0.8rem', color: 'var(--text-secondary)', marginTop: '0.5rem', fontWeight: 600, textTransform: 'uppercase' }}>
-                  Channels Tested
+                  Platforms Tested
                 </div>
               </div>
             </div>
@@ -52,30 +53,30 @@ const About = () => {
             <div className="about-feature-box">
               <h4 className="about-feature-title">
                 <Layers size={18} />
-                <span>Tosca Automation Engineer</span>
+                <span>Playwright Automation Specialist</span>
               </h4>
               <p className="about-feature-desc">
-                Automating E2E functional test scenarios for web and mobile platforms using Tricentis Tosca, ensuring rapid regression coverage.
+                Developing and maintaining automation test suites using Playwright with TypeScript for critical user journeys: Login, Menu, Cart, Checkout, Payments, and Order Tracking.
               </p>
             </div>
 
             <div className="about-feature-box">
               <h4 className="about-feature-title">
                 <ShieldCheck size={18} />
-                <span>FoodTech & QSR Sector Depth</span>
+                <span>Multi-Platform Enterprise QA</span>
               </h4>
               <p className="about-feature-desc">
-                Deep specialization in QSR systems, testing multi-channel payment method checkout gateways. I can verify and test any website and mobile application.
+                Testing across diverse platforms including Web, Android & iOS Apps, POS Systems, Self-Service Kiosks, Kitchen Display Systems (KDS), and Inventory Management modules.
               </p>
             </div>
 
             <div className="about-feature-box">
               <h4 className="about-feature-title">
                 <Sparkles size={18} />
-                <span>Gen AI Test Engineer</span>
+                <span>API, Database & Modern AI Tools</span>
               </h4>
               <p className="about-feature-desc">
-                Verifying Gen AI integrations: I validate prompt inputs, test against adversarial exploits, control model hallucination parameters, and audit model output safety boundaries.
+                REST API validation with Postman, SQL database testing, defect management via Jira & Azure DevOps, and leveraging Gen AI tools (ChatGPT, Claude, Copilot) to accelerate test workflows.
               </p>
             </div>
           </div>
